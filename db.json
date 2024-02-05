@@ -1,0 +1,18 @@
+{
+	"schedules" : [
+		{
+			"id": 1,
+     		 	"name": "scheduFlow",
+      			"description": "goal: managing scheule efficient",
+     	 		"manager": 1,
+      			"team": [
+       					{"memberId" : 1,"contribution": 30,"visits": 50},
+					{"memberId": 2,"contribution": 70,"visits": 80}
+       				],
+      			"kickOffDate": "2024-02-01",
+      			"dueDate": "2024-02-05",
+      			"status" : "scheduled"
+		}
+	]
+
+}
