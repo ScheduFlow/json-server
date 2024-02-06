@@ -1,18 +1,331 @@
 {
-	"schedules" : [
-		{
-			"id": 1,
-     		 	"name": "scheduFlow",
-      			"description": "goal: managing scheule efficient",
-     	 		"manager": 1,
-      			"team": [
-       					{"memberId" : 1,"contribution": 30,"visits": 50},
-					{"memberId": 2,"contribution": 70,"visits": 80}
-       				],
-      			"kickOffDate": "2024-02-01",
-      			"dueDate": "2024-02-05",
-      			"status" : "scheduled"
-		}
-	]
+  "members" : [
+   {
+      "id":1,
+      "name": "Robert",
+      "status":"off-limits"
+   },
+   {
+      "id":2,
+      "name":"Matthew",
+      "status":"off"
+   },
+   {
+      "id":3,
+      "name":"Json",
+      "status":"available"
+   },
+   {
+      "id":4,
+      "name": "Kim",
+      "status":"off-limits"
+   },
+   {
+      "id":5,
+      "name":"Lee",
+      "status":"available"
+   },
+   {
+      "id":6,
+      "name": "Tirzah",
+      "status":"available"
+   },
+   {
+      "id":7,
+      "name": "Sarah",
+      "status":"off-limits"
+   },
+   {
+      "id":8,
+      "name":"Tim",
+      "status":"available"
+   },
+   {
+      "id":9,
+      "name":"Smith",
+      "status":"off-limits"
+   },
+   {
+      "id":11,
+      "name":"Julia",
+      "status":"available"
+   },
+   {
+      "id":21,
+      "name": "Amenda",
+      "status":"off"
+   },
+   {
+      "id":22,
+      "name":"Naoto",
+      "status":"off-limits"
+   },
+   {
+      "id":23,
+      "name": "Luke",
+      "status":"off"
+   },
+   {
+      "id":25,
+      "name":"Reuben",
+      "status":"off"
+   },
+   {
+      "id":26,
+      "name": "Erisa",
+      "status":"off-limits"
+   },
+   {
+      "id":27,
+      "name": "Tina",
+      "status":"available"
+   },
+   {
+      "id":28,
+      "name":"Sara",
+      "status":"available"
+   },
+   {
+      "id":29,
+      "name": "Aaron",
+      "status":"off-limits"
+   },
+   {
+      "id":30,
+      "name":"Natalia",
+      "status":"off-limits"
+   }
 
+
+  ],
+	
+   "schedules":[
+      {
+         "id":1,
+         "name":"scheduFlow",
+         "description":"goal: managing scheule efficient",
+         "manager":1,
+         "team":[
+            {
+               "memberId":1,
+               "contribution":30,
+               "visits":50
+            },
+            {
+               "memberId":2,
+               "contribution":70,
+               "visits":80
+            }
+         ],
+         "kickOffDate":"2024-02-01",
+         "dueDate":"2024-02-05",
+         "status":"complete"
+      },
+      {
+         "id":2,
+         "name":"HR managing",
+         "description":"goal: managing HR reckless",
+         "manager":2,
+         "team":[
+            {
+               "memberId":3,
+               "contribution":80,
+               "visits":10
+            },
+            {
+               "memberId":4,
+               "contribution":20,
+               "visits":30
+               
+            }
+         ],
+         "kickOffDate":"2024-02-03",
+         "dueDate":"2024-02-10",
+         "status":"in progress"
+      },
+      {
+         "id":3,
+         "name":"Marketing management",
+         "description":"marketing DP managing",
+         "manager":3,
+         "team":[
+            {
+               "memberId":3,
+               "contribution":80,
+               "visits":10
+               
+            },
+            {
+               "memberId":6,
+               "contribution":20,
+               "visits":30
+               
+            }
+         ],
+         "kickOffDate":"2024-02-01",
+         "dueDate":"2024-02-03",
+         "status":"incomplete"
+      },
+      {
+         "id":4,
+         "name":"Touring management",
+         "description":"marketing DP managing",
+         "manager":10,
+         "team":[
+            {
+               "memberId":11,
+               "rate":80,
+               "visits":15
+              
+            },
+            {
+               "memberId":12,
+               "contribution":20,
+               "visits":10
+              
+            }
+         ],
+         "kickOffDate":"2024-02-02",
+         "dueDate":"2024-02-03",
+         "status":"complete"
+      },
+      {
+         "id":5,
+         "name":"Prom management",
+         "description":"scheduling prom",
+         "manager":21,
+         "team":[
+            {
+               "memberId":1,
+               "contribution":80,
+               "visits":15
+               
+            },
+            {
+               "memberId":5,
+               "contribution":20,
+               "visits":10
+               
+            }
+         ],
+         "kickOffDate":"2024-02-01",
+         "dueDate":"2024-02-05",
+         "status":"complete"
+      },
+      {
+         "id":6,
+         "name":"EarlyBird",
+         "description":"scheduling monthly workout",
+         "manager":1,
+         "team":[
+            {
+               "memberId":1,
+               "contribution":80,
+               "visits":15
+               
+            },
+            {
+               "memberId":3,
+               "contribution":20,
+               "visits":10
+               
+            }
+         ],
+         "kickOffDate":"2024-02-01",
+         "dueDate":"2024-02-03",
+         "status":"incomplete"
+      },
+      {
+         "id":7,
+         "name":"GitAvengers",
+         "description":"git study",
+         "manager":21,
+         "team":[
+            {
+               "memberId":10,
+               "contribution":70,
+               "visits":15
+               
+            },
+            {
+               "memberId":11,
+               "contribution":30,
+               "visits":10
+               
+            }
+         ],
+         "kickOffDate":"2024-02-11",
+         "dueDate":"2024-02-13",
+         "status":"scheduled"
+      },
+      {
+         "id":8,
+         "name":"microManaging",
+         "description":"managing small things like food stuff",
+         "manager":30,
+         "team":[
+            {
+               "memberId":5,
+               "contribution":15,
+               "visits":30
+               
+            },
+            {
+               "memberId":8,
+               "contribution":85,
+               "visits":12
+               
+            }
+         ],
+         "kickOffDate":"2024-02-15",
+         "dueDate":"2024-02-18",
+         "status":"scheduled"
+      },
+      {
+         "id":9,
+         "name":"eduCrew",
+         "description":"co-manging students in the given group",
+         "manager":23,
+         "team":[
+            {
+               "memberId":7,
+               "contribution":15,
+               "visits":30
+               
+            },
+            {
+               "memberId":8,
+               "contribution":85,
+               "visits":12
+               
+            }
+         ],
+         "kickOffDate":"2024-02-21",
+         "dueDate":"2024-02-27",
+         "status":"scheduled"
+      },
+      {
+         "id":10,
+         "name":"algorithmers",
+         "description":"squad solving 5-6 algorithm problems on daily basis",
+         "manager":15,
+         "team":[
+            {
+               "memberId":1,
+               "contribution":25,
+               "visits":30
+               
+            },
+            {
+               "memberId":30,
+               "contribution":75,
+               "visits":12
+               
+            }
+         ],
+         "kickOffDate":"2024-02-01",
+         "dueDate":"2024-02-11",
+         "status":"in progress"
+      }
+   ]
 }
