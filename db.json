@@ -2,78 +2,97 @@
   "members" : [
    {
       "id":1,
+      "name": "Robert",
       "status":"off-limits"
    },
    {
       "id":2,
+      "name":"Matthew",
       "status":"off"
    },
    {
       "id":3,
+      "name":"Json",
       "status":"available"
    },
    {
       "id":4,
+      "name": "Kim",
       "status":"off-limits"
    },
    {
       "id":5,
+      "name":"Lee",
       "status":"available"
    },
    {
       "id":6,
+      "name": "Tirzah",
       "status":"available"
    },
    {
       "id":7,
+      "name": "Sarah",
       "status":"off-limits"
    },
    {
       "id":8,
+      "name":"Tim",
       "status":"available"
    },
    {
       "id":9,
+      "name":"Smith",
       "status":"off-limits"
    },
    {
       "id":11,
+      "name":"Julia",
       "status":"available"
    },
    {
       "id":21,
+      "name": "Amenda",
       "status":"off"
    },
    {
       "id":22,
+      "name":"Naoto",
       "status":"off-limits"
    },
    {
       "id":23,
+      "name": "Luke",
       "status":"off"
    },
    {
       "id":25,
+      "name":"Reuben",
       "status":"off"
    },
    {
       "id":26,
+      "name": "Erisa",
       "status":"off-limits"
    },
    {
       "id":27,
+      "name": "Tina",
       "status":"available"
    },
    {
       "id":28,
+      "name":"Sara",
       "status":"available"
    },
    {
       "id":29,
+      "name": "Aaron",
       "status":"off-limits"
    },
    {
       "id":30,
+      "name":"Natalia",
       "status":"off-limits"
    }
 
