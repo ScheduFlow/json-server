@@ -46,6 +46,11 @@
       "status":"off-limits"
    },
    {
+      "id":10,
+      "name": "Rukis",
+      "status":"available"
+   },   
+   {
       "id":11,
       "name":"Julia",
       "status":"available"
@@ -55,7 +60,7 @@
       "name": "Amenda",
       "status":"off"
    },
-   {
+   {i
       "id":22,
       "name":"Naoto",
       "status":"off-limits"
@@ -63,6 +68,11 @@
    {
       "id":23,
       "name": "Luke",
+      "status":"off"
+   },
+   {
+      "id":24,
+      "name": "Brownings",
       "status":"off"
    },
    {
@@ -125,7 +135,7 @@
          "id":2,
          "name":"HR managing",
          "description":"goal: managing HR reckless",
-         "manager":2,
+         "manager":3,
          "team":[
             {
                "memberId":3,
@@ -170,7 +180,7 @@
          "id":4,
          "name":"Touring management",
          "description":"marketing DP managing",
-         "manager":10,
+         "manager":11,
          "team":[
             {
                "memberId":11,
@@ -193,7 +203,7 @@
          "id":5,
          "name":"Prom management",
          "description":"scheduling prom",
-         "manager":21,
+         "manager":5,
          "team":[
             {
                "memberId":1,
@@ -239,7 +249,7 @@
          "id":7,
          "name":"GitAvengers",
          "description":"git study",
-         "manager":21,
+         "manager":11,
          "team":[
             {
                "memberId":10,
@@ -262,7 +272,7 @@
          "id":8,
          "name":"microManaging",
          "description":"managing small things like food stuff",
-         "manager":30,
+         "manager":5,
          "team":[
             {
                "memberId":5,
@@ -285,7 +295,7 @@
          "id":9,
          "name":"eduCrew",
          "description":"co-manging students in the given group",
-         "manager":23,
+         "manager":7,
          "team":[
             {
                "memberId":7,
@@ -308,7 +318,7 @@
          "id":10,
          "name":"algorithmers",
          "description":"squad solving 5-6 algorithm problems on daily basis",
-         "manager":15,
+         "manager":30,
          "team":[
             {
                "memberId":1,
