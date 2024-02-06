@@ -1,4 +1,85 @@
 {
+  "members" : [
+   {
+      "id":1,
+      "status":"off-limits"
+   },
+   {
+      "id":2,
+      "status":"off"
+   },
+   {
+      "id":3,
+      "status":"available"
+   },
+   {
+      "id":4,
+      "status":"off-limits"
+   },
+   {
+      "id":5,
+      "status":"available"
+   },
+   {
+      "id":6,
+      "status":"available"
+   },
+   {
+      "id":7,
+      "status":"off-limits"
+   },
+   {
+      "id":8,
+      "status":"available"
+   },
+   {
+      "id":9,
+      "status":"off-limits"
+   },
+   {
+      "id":11,
+      "status":"available"
+   },
+   {
+      "id":21,
+      "status":"off"
+   },
+   {
+      "id":22,
+      "status":"off-limits"
+   },
+   {
+      "id":23,
+      "status":"off"
+   },
+   {
+      "id":25,
+      "status":"off"
+   },
+   {
+      "id":26,
+      "status":"off-limits"
+   },
+   {
+      "id":27,
+      "status":"available"
+   },
+   {
+      "id":28,
+      "status":"available"
+   },
+   {
+      "id":29,
+      "status":"off-limits"
+   },
+   {
+      "id":30,
+      "status":"off-limits"
+   }
+
+
+  ],
+	
    "schedules":[
       {
          "id":1,
@@ -9,14 +90,12 @@
             {
                "memberId":1,
                "contribution":30,
-               "visits":50,
-               "status":"available"
+               "visits":50
             },
             {
                "memberId":2,
                "contribution":70,
-               "visits":80,
-               "status":"off"
+               "visits":80
             }
          ],
          "kickOffDate":"2024-02-01",
@@ -32,14 +111,13 @@
             {
                "memberId":3,
                "contribution":80,
-               "visits":10,
-               "status":"available"
+               "visits":10
             },
             {
                "memberId":4,
                "contribution":20,
-               "visits":30,
-               "status":"off-limits"
+               "visits":30
+               
             }
          ],
          "kickOffDate":"2024-02-03",
@@ -55,14 +133,14 @@
             {
                "memberId":3,
                "contribution":80,
-               "visits":10,
-               "status":"off-limits"
+               "visits":10
+               
             },
             {
                "memberId":6,
                "contribution":20,
-               "visits":30,
-               "status":"off"
+               "visits":30
+               
             }
          ],
          "kickOffDate":"2024-02-01",
@@ -78,14 +156,14 @@
             {
                "memberId":11,
                "rate":80,
-               "visits":15,
-               "status":"off-limits"
+               "visits":15
+              
             },
             {
                "memberId":12,
                "contribution":20,
-               "visits":10,
-               "status":"available"
+               "visits":10
+              
             }
          ],
          "kickOffDate":"2024-02-02",
@@ -101,14 +179,14 @@
             {
                "memberId":1,
                "contribution":80,
-               "visits":15,
-               "status":"available"
+               "visits":15
+               
             },
             {
                "memberId":5,
                "contribution":20,
-               "visits":10,
-               "status":"available"
+               "visits":10
+               
             }
          ],
          "kickOffDate":"2024-02-01",
@@ -124,14 +202,14 @@
             {
                "memberId":1,
                "contribution":80,
-               "visits":15,
-               "status":"off-limits"
+               "visits":15
+               
             },
             {
                "memberId":3,
                "contribution":20,
-               "visits":10,
-               "status":"off"
+               "visits":10
+               
             }
          ],
          "kickOffDate":"2024-02-01",
@@ -147,14 +225,14 @@
             {
                "memberId":10,
                "contribution":70,
-               "visits":15,
-               "status":"off-limits"
+               "visits":15
+               
             },
             {
                "memberId":11,
                "contribution":30,
-               "visits":10,
-               "status":"available"
+               "visits":10
+               
             }
          ],
          "kickOffDate":"2024-02-11",
@@ -170,14 +248,14 @@
             {
                "memberId":5,
                "contribution":15,
-               "visits":30,
-               "status":"off"
+               "visits":30
+               
             },
             {
                "memberId":8,
                "contribution":85,
-               "visits":12,
-               "status":"available"
+               "visits":12
+               
             }
          ],
          "kickOffDate":"2024-02-15",
@@ -193,14 +271,14 @@
             {
                "memberId":7,
                "contribution":15,
-               "visits":30,
-               "status":"availble"
+               "visits":30
+               
             },
             {
                "memberId":8,
                "contribution":85,
-               "visits":12,
-               "status":"off-limits"
+               "visits":12
+               
             }
          ],
          "kickOffDate":"2024-02-21",
@@ -216,14 +294,14 @@
             {
                "memberId":1,
                "contribution":25,
-               "visits":30,
-               "status":"off"
+               "visits":30
+               
             },
             {
                "memberId":30,
                "contribution":75,
-               "visits":12,
-               "status":"available"
+               "visits":12
+               
             }
          ],
          "kickOffDate":"2024-02-01",
